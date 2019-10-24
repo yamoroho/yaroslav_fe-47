@@ -1,0 +1,10 @@
+body{
+    background-color: #2ac8ec;
+}
+p{
+    font-size: 20px;
+}
+li{
+    list-style-type:none;
+    font-size: 20px;
+}
