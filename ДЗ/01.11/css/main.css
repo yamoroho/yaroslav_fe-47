@@ -1,0 +1,38 @@
+body{
+    background-color: #031c3b;
+}
+
+.block_1{
+    margin: 300px auto 0 ;
+    position: relative;
+    border-radius: 30px; 
+    overflow: hidden;
+    width: 500px;
+    height: 25px;
+    background-color: #2b4870;
+}
+
+.block_2{
+    position: absolute;
+    width: 1px;
+    height: 100%; 
+    background: #ad9e27;
+    animation: fillbar 4s infinite ease-out;
+}
+
+.text{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+
+@keyframes fillbar{
+    from{
+       
+    }
+    to{
+        
+        width: 100%;
+    }
+}

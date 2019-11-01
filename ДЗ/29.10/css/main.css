@@ -1,18 +1,4 @@
-@font-face{
- 
 
-    font-family: 'anonymous';
-
-   
-
-    src: url('../fonts/WebFont.woff') format('woff');
-
-
-    font-weight: normal;
-
-    font-style: normal;
-
-}
 
 * {
     padding: 0;
@@ -20,7 +6,7 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'arialregular';
 }
 
 
