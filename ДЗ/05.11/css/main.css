@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+.container{
+    width: 990px;
+    margin: 0 auto;
+}
+
+.heading{
+    margin-bottom: 65px;
+}
+
+.phone_lang{
+    height: 37px;
+    background-color: #f5f7f9;
+}
+
+.phone_img{
+    float: left;
+    margin: 12px 9px;
+}
+
+.phone{
+    float: left;
+    margin-top: 13px;
+    font-size: 11px;
+}
+
+.text_1{
+    float: left;
+    margin-top: 15px;
+    margin-left: 108px;
+    font-size: 11px;
+}
+
+.lang{
+    float: left;
+    margin-left: 370px;
+    margin-top: 7px;
+}
+
+.currency{
+    float: right;
+    margin-top: 7px;
+}
+
+.logo{
+    float: left;
+    margin-top: 28px;
+    margin-right: 124px;
+}
+
+.search{
+    float: left;
+    margin-top: 52px;
+    margin-left: 5px;
+}
+
+
+nav{
+    float: right;
+    margin-top: 52px;
+}
+
+
+
+.menu li{
+    float: left;
+    display: block;
+    margin-left:28px ;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.menu_2{
+    float: left;
+    background-color: #f5f7f9;
+    padding: 20px;
+    padding-right: 392.61px;
+    margin-bottom: 20px;
+}
+
+.menu_2 li{
+    float: left;
+    display: block;
+    text-transform: uppercase;
+    margin-right: 40px;
+}
+
+.menu_2 a{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.slider{
+    float: left;
+    background: url(../img/bg.jpg) no-repeat center top / cover;;
+    height: 480px;
+    width: 100%;
+}
+
+.product{
+    margin-top: 70px;
+    margin-left: 30px;
+    animation: opacity_1 1s ;
+}
+
+.text_2{
+    float: right;
+    margin-top: 70px;
+    margin-right: 135px;
+    animation: opacity_1 1s ;
+}
+
+.text_2 h1 {
+    background-color: rgba(239, 248, 251, 0.7);
+    font-size: 36px;
+    margin-bottom: 18px;
+    padding: 10px;
+    
+}
+
+.text_2 p{
+    margin-top: 5px;
+    background-color: rgba(239, 248, 251, 0.7);
+    font-size: 20px;
+    padding: 5px;
+    
+}
+
+
+
+
+@keyframes opacity_1 {
+   from {
+        opacity: 0;
+   }
+   to {
+        opacity: 1;
+   }
+}
