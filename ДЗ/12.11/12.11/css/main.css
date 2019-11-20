@@ -1,0 +1,130 @@
+*{
+   padding: 0;
+   margin: 0;
+    
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+body{
+	font-family: arial, sans-serif;
+	background: url("../img/body.png") no-repeat center bottom / cover;
+
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+h1{
+	text-align: center;
+	margin-top: 80px;
+	font-size: 36px;
+	margin-bottom: 135px;
+}
+
+.advantages{
+	display: flex; /*Добавляем возможность использовать flexbox*/
+	flex-direction: row; /*Выставим все в строку (это значение по умолчанию)*/
+	flex-wrap: wrap; /*Разрешим перенос блоков на новую строку если они не поместились в первой строке (полезное свойство для адаптивной верстки)*/
+	justify-content: center;
+	
+}
+
+.advantage_block{
+	background-color: #ffffff;
+	margin-top: 60px;
+	width:550px;
+	height: 600px;
+	-webkit-border-radius: 20px;
+	-webkit-border-top-right-radius: 0;
+	-moz-border-radius: 20px;
+	-moz-border-radius-topright: 0;
+	border-radius: 20px;
+	border-top-right-radius: 0;
+	padding: 70px;
+	transition: 0.5s all ease;
+
+}
+
+.advantage_block:nth-child(even){
+	margin-left: 70px;
+}
+
+.advantage_block:hover{
+	transform: scale(1.1);
+	-webkit-box-shadow: 0px 0px 89px 38px rgba(212,91,212,1);
+	-moz-box-shadow: 0px 0px 89px 38px rgba(212,91,212,1);
+	box-shadow: 0px 0px 89px 38px rgba(212,91,212,1);
+}
+
+
+.img_item_2{
+
+	float: right; 
+	
+}
+
+.advantage_item > h2 {
+	font-size: 24px;
+	margin-top: 75px;
+	margin-bottom: 50px;
+}
+
+.advantage_item > p {
+	font-size: 20px;
+	line-height: 2;
+}
+
+.botton{
+	width:280px;
+	height: 75px;
+	-webkit-border-radius: 20px;
+	-webkit-border-top-right-radius: 0;
+	-moz-border-radius: 20px;
+	-moz-border-radius-topright: 0;
+	border-radius: 20px;
+	border-top-right-radius: 0;
+	background-color: #2fc9ef;
+	padding: 20px;
+	margin: 115px auto 730px;
+	transition: 0.5s all ease;
+
+}
+
+.botton > a {
+	display: block;;
+	font-size: 24px;
+	text-decoration: none;
+	text-align: center;
+	color: #ffffff;
+}
+
+.botton:hover{
+	-webkit-box-shadow: 0px 0px 89px 38px rgba(212,91,212,1);
+	-moz-box-shadow: 0px 0px 89px 38px rgba(212,91,212,1);
+	box-shadow: 0px 0px 89px 38px rgba(212,91,212,1);
+}
+
+.ellipse_1 {
+	position: absolute;
+    left: 50%;
+    top: 700px;
+    margin-left: 525px;
+}
+
+.ellipse_2 {
+	position: absolute;
+    
+    top: 1200px;
+
+}
+
+.ellipse_3 {
+	position: absolute;
+    left: 250px;
+    top: 750px;
+
+}
