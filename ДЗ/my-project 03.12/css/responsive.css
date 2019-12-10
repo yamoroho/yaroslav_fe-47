@@ -1,0 +1,45 @@
+@media (max-width: 1199px){
+    #item_3 {
+        margin-top: 30px;
+    }
+
+}
+
+    
+@media (max-width: 991px){   
+    #item_3 {
+        margin-top: 0;
+    }
+    
+}
+
+@media (max-width: 767px){
+    .medium_area_title>span {
+        font-size: 80px;
+    }
+
+    .promo_item#promo_item_2 {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+}
+
+@media (max-width: 479px){
+    .medium_area_title>span{
+        font-size: 80px;
+    }
+
+    
+
+}
+
+/*Fonts
+    font-family: 'Times New Roman';
+
+    font-family: 'montserratmedium';
+    font-family: 'MontserratMediumItalic';
+    font-family: 'montserratbold';
+    font-family: 'montserratblack';
+    font-family: 'montserratextrabold';
+*/
